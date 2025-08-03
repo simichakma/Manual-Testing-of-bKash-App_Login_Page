@@ -1,47 +1,71 @@
-# Manual-Testing-of-bKash-App_Login_Page
-ThiManual Testing of bKash Apps repository contains a manual testing project for the bKash mobile application login page. It demonstrates the step-by-step testing process, test case design, and defect tracking used to validate the login functionality of the app.
+#  Manual Testing of bKash App – Login Page
 
-Project Overview
-The bKash app is a widely used mobile financial service in Bangladesh. Ensuring the reliability and security of its login system is crucial. This project focuses on black-box manual testing techniques to test various login scenarios.
+This project documents the manual testing process for the **Login Page** of the **bKash mobile application**, one of the most popular mobile financial services in Bangladesh. The goal is to identify usability issues, functional defects, and security concerns to ensure a reliable user authentication experience.
 
- Features Tested
-Valid and invalid phone number input
-Valid and invalid PIN input
-Empty field validation
-UI/UX elements (placeholders, alignment, button behavior)
-Error messages and system feedback
-Forgot PIN link functionality
+---
 
-Tools Used
-Microsoft Excel – for test case documentation and defect tracking
-Mobile Device Emulator / Real Device – for executing test cases
-Screenshot tools – to capture evidence of issues
-Testing Techniques
-Equivalence Partitioning
-Boundary Value Analysis
-Positive and Negative Testing
-UI Testing
-Exploratory Testing
+##  Project Overview
 
-Sample Test Case
-Test Case ID	Description	Steps	Expected Result	Actual Result	Status
-TC001	Valid login	Enter valid number and PIN	User successfully logged in	As expected
+- **Project Type**: Manual Testing
+- **Application Under Test (AUT)**: bKash Android App
+- **Module Tested**: Login Page
+- **Testing Approach**: Black-box, Positive & Negative Testing
+- **Tested By**: [Simi Chakma](https://github.com/simichakma)  
+- **Tools Used**: Google Sheets (Test Case Documentation), Android Emulator, Real Device Testing
 
- Purpose
-This project was created as part of a QA learning journey to demonstrate manual testing skills, including:
+---
 
-Writing effective test cases
+##  Scope of Testing
 
-Executing tests
+The testing scope is limited to the **Login functionality**, covering:
+- Mobile number validation
+- PIN input and validation
+- Error message verification
+- Login with valid/invalid credentials
+- Navigation to Forgot PIN and Signup pages
 
-Logging bugs
+---
 
-Preparing documentation for real-world apps
+##  Test Deliverables
 
-Bug Report
-During the manual testing process of the bKash app's login page, no bugs or anomalies were identified. The application responded as expected to all test inputs and scenarios, including:
+- **Test Cases**: Well-documented in Google Sheets [📄 View Test Cases](https://docs.google.com/spreadsheets/d/1zRMsLvWO55l6p4YM7Tzz_M5I-HCRLaJd7O3uuDnZ6uE/edit?usp=sharing)
+- **Bug Reports**: Identified defects categorized by severity and module
+- **Test Execution Report**: Pass/fail results with comments
+- **Screenshots**: Attached in the repository (if available)
 
-Valid and invalid login credentials
-Blank input fields
-Forgotten password scenarios
-UI responsiveness and alignment
+---
+
+##  Folder Structure
+
+Manual-Testing-of-bKash-App_Login_Page/
+├── TestCases/ # Google Sheet link included
+├── BugReports/ # Documented issues (optional)
+├── Screenshots/ # Visual evidence of test results
+└── README.md # Project documentation
+
+yaml
+Copy
+Edit
+
+---
+
+##  Testing Techniques Applied
+
+- **Equivalence Partitioning**
+- **Boundary Value Analysis**
+- **Negative Testing**
+- **Usability Testing**
+- **Smoke Testing** for Login Page
+
+---
+
+## 🛠 Tools & Environment
+
+| Tool               | Purpose                   |
+|--------------------|---------------------------|
+| Google Sheets      | Test documentation        |
+| Android Emulator   | Mobile testing environment|
+| bKash APK (latest) | App under test            |
+| Real Android Device| Functional testing        |
+
+---
