@@ -43,11 +43,7 @@ Manual-Testing-of-bKash-App_Login_Page/
 ├── Screenshots/ # Visual evidence of test results
 └── README.md # Project documentation
 
-yaml
-Copy
-Edit
 
----
 
 ##  Testing Techniques Applied
 
